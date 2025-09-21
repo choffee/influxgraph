@@ -2,3 +2,4 @@ influxdb>=3.0.0; python_version > '2.6'
 influxdb<4.0.0; python_version <= '2.6'
 graphite-api>=1.1.2
 python-memcached
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
